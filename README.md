@@ -6,10 +6,10 @@
 | --- | --- | --- |
 | [Titanic](notebooks/titanic) | [생존자 예측](notebooks/titanic/titanic_%EC%83%9D%EC%A1%B4%EC%9E%90%EC%98%88%EC%B8%A1.ipynb) | 전처리, 의사결정나무·랜덤포레스트·로지스틱 회귀, 교차 검증 |
 | [Titanic](notebooks/titanic) | [classification_metrics.ipynb](notebooks/titanic/classification_metrics.ipynb) | 정밀도·재현율·F1·ROC-AUC, 임계값 조정 |
-| [Digits](notebooks/digits) | [MNIST_practice.ipynb](notebooks/digits/MNIST_practice.ipynb) | 불균형 분류와 정확도 해석 |
+| [Digits](notebooks/digits) | [Digits_Classification.ipynb](notebooks/digits/Digits_Classification.ipynb) | 불균형 분류와 정확도 해석 |
 | [Diabetes](notebooks/diabetes) | [PIMA_Indian_Diabetes.ipynb](notebooks/diabetes/PIMA_Indian_Diabetes.ipynb) | 결측값·스케일링·로지스틱 회귀·평가 지표 |
 
-**Digits 노트북은 파일명과 달리 scikit-learn의 `load_digits()`를 사용합니다.** 원본 MNIST 데이터 실험으로 설명하지 않습니다.
+Digits 노트북은 scikit-learn의 `load_digits()` 데이터로 실습합니다.
 
 ## 실행
 ```sh
